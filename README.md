@@ -22,6 +22,7 @@ The database schema includes:
    - MySQL Server (e.g., MySQL 8+)
    - MySQL client (CLI, Workbench, or VS Code extension)
 
+
 2. **Steps**:
    - Clone this repository or download the `.sql` file:
      ```bash
@@ -29,7 +30,7 @@ The database schema includes:
      ```
    - Open your MySQL client and execute the SQL file:
      ```sql
-     SOURCE path_to_your_project/library_management.sql;
+     SOURCE path_to_your_project/Librarymanagementsystem.sql;
      ```
    - Ensure the `library_management` database is selected:
      ```sql
@@ -37,7 +38,7 @@ The database schema includes:
      ```
 
 3. **Alternative (Workbench/VS Code)**:
-   - Open the `.sql` file
+   - Open the `Librarymanagementsystem.sql` file
    - Run all the queries using the play/run button
 
 4. **Done!** You can now start querying the tables.
@@ -50,7 +51,7 @@ https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank
 ---
 
 ## Repo Contents
-- `library_management.sql` – Full SQL script for creating and setting up the database
+- `Librarymanagementsystem.sql` – Full SQL script for creating and setting up the database
 - `README.md` – Documentation on how to use the project
 - `A_Entity-Relationship_Diagram_(ERD)_in_the_digital.png` – Visual representation of the database structure
 
